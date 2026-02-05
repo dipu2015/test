@@ -1,0 +1,5 @@
+fastapi==0.128.1
+fastapi-cli==0.0.20
+fastapi-cloud-cli==0.11.0
+runpod==1.8.1
+uvicorn==0.40.0
