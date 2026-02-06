@@ -3,3 +3,12 @@ fastapi-cli==0.0.20
 fastapi-cloud-cli==0.11.0
 runpod==1.8.1
 uvicorn==0.40.0
+
+# IndexTTS2 - 从 GitHub 安装
+git+https://github.com/index-tts/index-tts.git@main
+
+# 音频处理
+pydub>=0.25.1
+
+# Hugging Face 传输加速
+hf_transfer
