@@ -18,7 +18,7 @@ def handler(event):
     seconds = input.get('seconds', 0)  
 
     print(f"Received prompt: {prompt}")
-    print(f"Sleeping for {seconds} seconds...")
+    print(f"Sleeping for {seconds} seconds...!!!")
     
     # You can replace this sleep call with your own Python code
     time.sleep(seconds)  
@@ -28,4 +28,3 @@ def handler(event):
 # Start the Serverless function when the script is run
 if __name__ == '__main__':
     runpod.serverless.start({'handler': handler })
-
